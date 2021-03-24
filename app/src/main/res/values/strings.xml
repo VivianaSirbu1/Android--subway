@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">Transport</string>
+
+    <!--Main Page-->
+    <string name="main_name">NUME APLICATIE</string>
+    <string name="main_btn">Start</string>
+
+    <!--Meniu-->
+    <string name="name_meniu">Meniu</string>
+    <string name="meniu_ruta">Ruta</string>
+    <string name="meniu_cont">Intra in cont</string>
+    <string name="meniu_info">Istoric</string>
+    <string name="meniu_locatii">Rapoarte Istoric</string>
+
+    <!--Gasire Rute-->
+    <string name="gasire_ruta">Pregateste-ti ruta</string>
+    <string name="gasire_loc">Locatia curenta:</string>
+    <string name="name_plecare">Statia de plecare</string>
+    <string name="name_sosire">Statie de sosire</string>
+    <string name="btn_cauta">Cauta Ruta</string>
+    <string name="btn_save">Salveaza Ruta</string>
+    <string-array name="numeStatiiPlecare">
+        <item>1 Decembrie 1918</item>
+        <item>1 Mai</item>
+        <item>Universitate</item>
+        <item>Academia Militară</item>
+        <item>Apărătorii Patriei</item>
+        <item>Dristor 1</item>
+        <item>Armata Poporului</item>
+        <item>Dristor2</item>
+        <item>Drumul Taberei 34</item>
+        <item>Eroii Revoluţiei</item>
+        <item>Gara de Nord</item>
+        <item>Gara de Nord 2</item>
+        <item>Aurel Vlaicu"</item>
+        <item>Aviatorilor</item>
+        <item>Basarab</item>
+        <item>Cismigiu</item>
+        <item>Constantin Brâncoveanu</item>
+        <item>Depou IMGB</item>
+        <item>Gorjului</item>
+        <item>Griviţa</item>
+        <item>Hasdeu</item>
+        <item>Grozăveşti</item>
+        <item>Iancului</item>
+        <item>IMGB</item>
+        <item>Industriilor</item>
+        <item>Costin Georgian</item>
+        <item>Crângaşi</item>
+        <item>Izvor</item>
+        <item>Jiului</item>
+        <item>Lac Străulești</item>
+        <item>Laminorului</item>
+        <item>Linia de Centură</item>
+        <item>Mihai Bravu</item>
+        <item>Nicolae Grigorescu 1</item>
+        <item>Nicolae Grigorescu 2</item>
+        <item>Obor</item>
+        <item>Orizont</item>
+        <item>Pantelimon</item>
+        <item>Parc Bazilescu</item>
+        <item>Parc Drumul Taberei</item>
+        <item>Păcii</item>
+        <item>Piaţa Muncii</item>
+        <item>Piaţa Romană</item>
+        <item>Pipera</item>
+        <item>Policolor</item>
+        <item>Politehnica</item>
+        <item>Preciziei</item>
+        <item>Râul Doamnei</item>
+        <item>Republica</item>
+        <item>Piaţa Victoriei</item>
+        <item>Romancierilor</item>
+        <item>Piaţa Unirii</item>
+        <item>Semănătoarea</item>
+        <item>Piaţa Victoriei</item>
+        <item>Ştefan cel Mare</item>
+        <item>Timpuri Noi</item>
+        <item>Tineretului</item>
+        <item>Titan</item>
+        <item>Piaţa Sudului</item>
+        <item>Piaţa Unirii 2</item>
+    </string-array>
+
+    <string-array name="numeStatiiSosire">
+        <item>1 Decembrie 1918</item>
+        <item>1 Mai</item>
+        <item>Universitate</item>
+        <item>Academia Militară</item>
+        <item>Apărătorii Patriei</item>
+        <item>Dristor 1</item>
+        <item>Armata Poporului</item>
+        <item>Dristor2</item>
+        <item>Drumul Taberei 34</item>
+        <item>Eroii Revoluţiei</item>
+        <item>Gara de Nord</item>
+        <item>Gara de Nord 2</item>
+        <item>Aurel Vlaicu"</item>
+        <item>Aviatorilor</item>
+        <item>Basarab</item>
+        <item>Cismigiu</item>
+        <item>Constantin Brâncoveanu</item>
+        <item>Depou IMGB</item>
+        <item>Gorjului</item>
+        <item>Griviţa</item>
+        <item>Hasdeu</item>
+        <item>Grozăveşti</item>
+        <item>Iancului</item>
+        <item>IMGB</item>
+        <item>Industriilor</item>
+        <item>Costin Georgian</item>
+        <item>Crângaşi</item>
+        <item>Izvor</item>
+        <item>Jiului</item>
+        <item>Lac Străulești</item>
+        <item>Laminorului</item>
+        <item>Linia de Centură</item>
+        <item>Mihai Bravu</item>
+        <item>Nicolae Grigorescu 1</item>
+        <item>Nicolae Grigorescu 2</item>
+        <item>Obor</item>
+        <item>Orizont</item>
+        <item>Pantelimon</item>
+        <item>Parc Bazilescu</item>
+        <item>Parc Drumul Taberei</item>
+        <item>Păcii</item>
+        <item>Piaţa Muncii</item>
+        <item>Piaţa Romană</item>
+        <item>Pipera</item>
+        <item>Policolor</item>
+        <item>Politehnica</item>
+        <item>Preciziei</item>
+        <item>Râul Doamnei</item>
+        <item>Republica</item>
+        <item>Piaţa Victoriei</item>
+        <item>Romancierilor</item>
+        <item>Piaţa Unirii</item>
+        <item>Semănătoarea</item>
+        <item>Piaţa Victoriei</item>
+        <item>Ştefan cel Mare</item>
+        <item>Timpuri Noi</item>
+        <item>Tineretului</item>
+        <item>Titan</item>
+        <item>Piaţa Sudului</item>
+        <item>Piaţa Unirii 2</item>
+    </string-array>
+
+
+
+    <!--Istoric-->
+    <string name="nume_istoric">Istoricul tau</string>
+    <string name="btn_afiseaza">Afiseaza</string>
+    <string name="btn_DB">Salveaza</string>
+
+
+    <!--Parsing XML-->
+    <string name="parse_xml">Parse XML</string>
+
+    <!--    Login-->
+    <string name="login">Hello there!</string>
+    <string name="tvusername">Enter Email</string>
+    <string name="tvpassword"> Enter Password</string>
+    <string name="check_remember">Remember Me</string>
+    <string name="btn_forget">Forget Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="btn_create">Create Account</string>
+
+<!--    SignUp-->
+    <string name="signup">Create account</string>
+    <string name="sign_name">Full Name</string>
+    <string name="sign_user">Username</string>
+    <string name="sign_email">E-mail</string>
+    <string name="sign_phone">Phone Number</string>
+    <string name="sign_password">Password</string>
+    <string name="btn_sign_next">Next</string>
+    <string name="btn_sign_login">Log In</string>
+    <string name="signup_done">Register</string>
+    <string name="signup_age">Select Your Age</string>
+    <string name="signup_gender">Choose Gender</string>
+    <string name="gen_male">Male</string>
+    <string name="gen_female">Female</string>
+    <string name="gen_other">Other</string>
+
+    <!--Forget Password-->
+    <string name="forget_pass">Forget Password</string>
+    <string name="forget_detail">Provide your account email for which you want to reset your password!</string>
+    <string name="brn_next">Next</string>
+
+</resources>

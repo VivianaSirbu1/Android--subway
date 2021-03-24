@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <Metrou>
+        <id>01</id>
+        <denumire>Pipera</denumire>
+        <nr_calatorii_2019>6.433.783</nr_calatorii_2019>
+        <peroane_in_uz>2</peroane_in_uz>
+    </Metrou>
+    <Metrou>
+        <id>02</id>
+        <denumire>Piata Victoriei</denumire>
+        <nr_calatorii_2019>7.245.032</nr_calatorii_2019>
+        <peroane_in_uz>4</peroane_in_uz>
+    </Metrou>
+    <Metrou>
+        <id>03</id>
+        <denumire>Piata Unirii</denumire>
+        <nr_calatorii_2019>12.956.886</nr_calatorii_2019>
+        <peroane_in_uz>4</peroane_in_uz>
+    </Metrou>
+    <Metrou>
+        <id>04</id>
+        <denumire>Universitate</denumire>
+        <nr_calatorii_2019>6.507.055</nr_calatorii_2019>
+        <peroane_in_uz>2</peroane_in_uz>
+    </Metrou>
+    <Metrou>
+        <id>05</id>
+        <denumire>Piata Romana</denumire>
+        <nr_calatorii_2019>6.115.023</nr_calatorii_2019>
+        <peroane_in_uz>2</peroane_in_uz>
+    </Metrou>
+</root>

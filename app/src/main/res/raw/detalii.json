@@ -1,0 +1,34 @@
+{
+	"Metrou": [
+		{
+			"id": "01",
+			"denumire": "Pipera",
+			"nr calatorii 2019": "6.433.783",
+			"peroane in uz": "2"
+		},
+		{
+			"id": "02",
+			"denumire": "Piata Victoriei",
+			"nr calatorii 2019": "7.245.032",
+			"peroane in uz": "4"
+		},
+		{
+			"id": "03",
+			"denumire": "Piata Unirii",
+			"nr calatorii 2019": "12.956.886",
+			"peroane in uz": "4"
+		},
+		{
+			"id": "04",
+			"denumire": "Universitate",
+			"nr calatorii 2019": "6.507.055",
+			"peroane in uz": "2"
+		},
+		{
+			"id": "05",
+			"denumire": "Piata Romana",
+			"nr calatorii 2019": "6.115.023",
+			"peroane in uz": "2"
+		}
+	]
+}

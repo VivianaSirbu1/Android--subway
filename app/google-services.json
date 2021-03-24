@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90566690178",
+    "project_id": "transport-a62f7",
+    "storage_bucket": "transport-a62f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90566690178:android:bfa3d44d1206bd8439bb9b",
+        "android_client_info": {
+          "package_name": "com.example.transport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90566690178-l58nkibif2bsasjroetsqej5r1snv4op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Kki2GZ0EWNS5yiZ7VtOiFOMiorTCijU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90566690178-l58nkibif2bsasjroetsqej5r1snv4op.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

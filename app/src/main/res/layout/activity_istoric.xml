@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Istoric"
+    android:background="#b2d2ff">
+
+    <EditText
+        android:id="@+id/et_ruta"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Ruta"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/et_statieplecare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_id" />
+
+    <TextView
+        android:id="@+id/textViewIstoric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:text="@string/nume_istoric"
+        style="@style/Style_three"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Id"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIstoric" />
+
+    <EditText
+        android:id="@+id/et_statieplecare"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:hint="Statie de plecare"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIstoric" />
+
+    <EditText
+        android:id="@+id/et_statiesosire"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Statia de sosire"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_statieplecare" />
+
+    <ListView
+        android:id="@+id/lv_istoric"
+        android:layout_width="324dp"
+        android:layout_height="293dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_saveist"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_saveist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/black"
+        android:text="@string/btn_afiseaza"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_statiesosire" />
+
+    <Button
+        android:id="@+id/btn_BD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:text="@string/btn_DB"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/lv_istoric"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toEndOf="@+id/btn_saveist"
+        app:layout_constraintTop_toBottomOf="@+id/et_statiesosire"
+        app:layout_constraintVertical_bias="0.545" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
